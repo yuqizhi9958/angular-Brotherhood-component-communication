@@ -1,0 +1,6 @@
+<div class="parent">
+  <h1>父组件 </h1>
+  <h4>父组件接收:{{getDataFromA}}</h4>
+</div>
+<app-father (fashe)="gerDataA($event)"></app-father>
+<app-child [getDataFromParent]="getDataFromA"></app-child>
